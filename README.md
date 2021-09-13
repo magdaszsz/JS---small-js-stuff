@@ -1,1 +1,1 @@
-https://github.com/magdaszsz/JS---small-js-stuff/tree/master/MemoryCards
+https://magdaszsz.github.io/JS---small-js-stuff/MemoryCards/
