@@ -2,8 +2,59 @@
   box-sizing: border-box;
 }
 
+input {
+  width: 25rem;
+  margin: 0 auto;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
-  
+  display: grid;
+  justify-items: center;
+}
+
+.country-card {
+  width: 25rem;
+  padding: 1rem 0.5rem;
+  background: #dff9fb;
+  margin-top: 1rem;
+}
+
+img {
+  height: 2rem;
+  width: 3rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spinner-container {
+  height: 80vh;
+  display: flex;
+}
+
+.spinner {
+  height: 50px;
+  width: 50px;
+  border: 5px solid #dff9fb;
+  border-top-color: #54d4dd;
+  border-radius: 50%;
+
+  margin: auto;
+  animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
 }
